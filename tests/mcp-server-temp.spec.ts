@@ -8,4 +8,5 @@ test("Playwright MCP Server - Test", async ({ page }) => {
 
   const re = await request.newContext();
   re.get("https://wishinfinite.com/mcp-server/files/File1.txt");
+  console.log("this is pr 2");
 });
